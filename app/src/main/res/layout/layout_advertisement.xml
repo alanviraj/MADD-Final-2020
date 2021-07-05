@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvAdName"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:background="#143567"
+            android:fontFamily="@font/trykker"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/viewAdImg"
+            android:layout_width="360dp"
+            android:layout_height="180dp"
+            android:layout_below="@id/tvAdName"
+            android:background="#40143567" />
+
+        <TextView
+            android:id="@+id/tvAdDesc"
+            android:layout_width="295dp"
+            android:layout_height="55dp"
+            android:layout_below="@id/viewAdImg"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#143567"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnAdDelete"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/viewAdImg"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="6dp"
+            android:layout_toEndOf="@id/tvAdDesc"
+            android:background="@drawable/ic_baseline_delete_forever_24"
+            android:backgroundTint="#D11A2A"
+            android:backgroundTintMode="src_in" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

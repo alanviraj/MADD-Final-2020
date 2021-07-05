@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <RelativeLayout
+        android:layout_width="362dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvSubName"
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:background="#143567"
+            android:fontFamily="@font/trykker"
+            android:paddingBottom="3dp"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvSubName"
+            android:paddingBottom="3dp"
+            android:fontFamily="@font/trykker"
+            android:text="@string/lblPrice"
+            android:textColor="#143567" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView30"
+            android:fontFamily="@font/trykker"
+            android:text="@string/lblDiscPerc"
+            android:paddingBottom="3dp"
+            android:textColor="#143567" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView31"
+            android:fontFamily="@font/trykker"
+            android:text="@string/lblAvail"
+            android:paddingBottom="3dp"
+            android:textColor="#143567" />
+
+        <TextView
+            android:id="@+id/tvSubPrice"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvSubName"
+            android:layout_toRightOf="@id/textView30"
+            android:fontFamily="@font/trykker"
+            android:paddingBottom="3dp"
+            android:textColor="#143567" />
+
+        <TextView
+            android:id="@+id/tvSubDisPerc"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView30"
+            android:layout_toRightOf="@id/textView31"
+            android:fontFamily="@font/trykker"
+            android:paddingBottom="3dp"
+            android:textColor="#143567" />
+
+        <TextView
+            android:id="@+id/tvSubAvailability"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView31"
+            android:layout_toRightOf="@id/textView33"
+            android:fontFamily="@font/trykker"
+            android:paddingBottom="3dp"
+            android:textColor="#143567" />
+
+        <Button
+            android:id="@+id/btnDeleteSub"
+            android:layout_width="70dp"
+            android:layout_height="39dp"
+            android:layout_below="@id/tvSubPrice"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="-9dp"
+            android:layout_toRightOf="@id/tvSubDisPerc"
+            android:background="@android:drawable/editbox_background"
+            android:backgroundTint="#225EBB"
+            android:fontFamily="@font/trykker"
+            android:text="@string/btnDelete"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

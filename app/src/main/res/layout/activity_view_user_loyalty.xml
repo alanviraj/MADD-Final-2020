@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View_User_Loyalty">
+
+    <include
+        android:id="@+id/register_user_toolbar"
+        layout="@layout/app_bar_layout" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/trykker"
+        android:text="@string/upheading"
+        android:textColor="#050505"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/register_user_toolbar" />
+
+    <TextView
+        android:id="@+id/loyalty_value"
+        android:layout_width="345dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="11dp"
+        android:background="#225EBB"
+        android:fontFamily="sans-serif"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="398dp"
+        android:layout_height="250dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loyalty_value">
+
+        <TableRow
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="306dp">
+
+            <TextView
+                android:layout_width="136dp"
+                android:layout_height="50dp"
+                android:background="@android:drawable/editbox_dropdown_dark_frame"
+                android:fontFamily="@font/trykker"
+                android:gravity="center"
+                android:text="@string/loyaltytableH"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="306dp" />
+
+            <TextView
+                android:layout_width="256dp"
+                android:layout_height="50dp"
+                android:background="@android:drawable/editbox_dropdown_dark_frame"
+                android:fontFamily="@font/trykker"
+                android:gravity="center"
+                android:text="@string/loyaltytableH2"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="356dp">
+
+            <TextView
+                android:layout_width="136dp"
+                android:layout_height="50dp"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
+                android:fontFamily="@font/trykker"
+                android:gravity="center"
+                android:text="@string/tabler1"
+                android:textColor="#333"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="356dp" />
+
+            <TextView
+                android:layout_width="256dp"
+                android:layout_height="50dp"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
+                android:fontFamily="@font/trykker"
+                android:gravity="center"
+                android:text="Premium"
+                android:textColor="#333"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="144dp"
+                tools:layout_editor_absoluteY="356dp" />
+        </TableRow>
+
+        <TableRow
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="406dp">
+
+            <TextView
+                android:layout_width="136dp"
+                android:layout_height="50dp"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
+                android:fontFamily="@font/trykker"
+                android:gravity="center"
+                android:text="@string/tabler2"
+                android:textColor="#333"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="406dp" />
+
+            <TextView
+                android:layout_width="256dp"
+                android:layout_height="50dp"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
+                android:fontFamily="@font/trykker"
+                android:gravity="center"
+                android:text="Classic"
+                android:textColor="#333"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="144dp"
+                tools:layout_editor_absoluteY="406dp" />
+        </TableRow>
+
+        <TableRow
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="455dp">
+
+            <TextView
+                android:layout_width="136dp"
+                android:layout_height="50dp"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
+                android:fontFamily="@font/trykker"
+                android:gravity="center"
+                android:text="@string/tabler3"
+                android:textColor="#333"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="455dp" />
+
+            <TextView
+                android:layout_width="256dp"
+                android:layout_height="50dp"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
+                android:fontFamily="@font/trykker"
+                android:gravity="center"
+                android:text="Hybird"
+                android:textColor="#333"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="144dp"
+                tools:layout_editor_absoluteY="455dp" />
+        </TableRow>
+
+        <TableRow
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="505dp">
+
+            <TextView
+                android:layout_width="136dp"
+                android:layout_height="50dp"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
+                android:fontFamily="@font/trykker"
+                android:gravity="center"
+                android:text="@string/tabler4"
+                android:textColor="#333"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="505dp" />
+
+            <TextView
+                android:layout_width="256dp"
+                android:layout_height="50dp"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
+                android:fontFamily="@font/trykker"
+                android:gravity="center"
+                android:text="@string/tabler4H"
+                android:textColor="#333"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="144dp"
+                tools:layout_editor_absoluteY="505dp" />
+        </TableRow>
+
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btn_loyaltyR"
+        android:layout_width="164dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginBottom="64dp"
+        android:backgroundTint="#225EBB"
+        android:text=" Reddem Your Points"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loyalty_value" />
+
+    <Button
+        android:id="@+id/re_home"
+        android:layout_width="164dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginBottom="64dp"
+        android:backgroundTint="#225EBB"
+        android:text="Home"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintStart_toEndOf="@+id/btn_loyaltyR"
+        app:layout_constraintTop_toBottomOf="@+id/loyalty_value" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

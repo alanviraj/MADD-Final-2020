@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminRating">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#0A13AA"
+        android:text="Your current ratings..." />
+
+    <RatingBar
+        android:id="@+id/ratingBarADD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="center"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="80dp"
+        android:numStars="5"
+        android:stepSize="0.1"
+        android:progressTint="#E6B500"
+        android:secondaryProgressTint="#E6B500"
+        />
+
+    <TextView
+        android:id="@+id/adminRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        android:textColor="#D10B29"
+        android:layout_below="@+id/ratingBarADD"
+        android:background="@drawable/hollow_button"/>
+
+    <TextView
+        android:id="@+id/totServices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        android:textColor="#D10B29"
+        android:layout_below="@+id/adminRate"
+        android:background="@drawable/hollow_button"/>
+
+    <TextView
+        android:id="@+id/tv_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        android:textColor="#D10B29"
+        android:layout_below="@+id/totServices"
+        android:background="@drawable/hollow_button"/>
+
+</RelativeLayout>

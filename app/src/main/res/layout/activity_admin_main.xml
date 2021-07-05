@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin_main">
+
+
+    <include
+        android:id="@+id/register_user_toolbar"
+        layout="@layout/app_bar_layout"
+        app:logo="@drawable/logo13"
+        />
+
+<!--    <androidx.appcompat.widget.Toolbar-->
+<!--        android:id="@+id/toolbar2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="?actionBarSize"-->
+<!--        android:background="#143567"-->
+<!--        android:theme="@style/ThemeOverlay.AppCompat.Light"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:logo="@drawable/logo13"-->
+<!--        app:title="@string/appName"-->
+
+<!--        app:titleMarginStart="40dp"-->
+<!--        app:titleTextColor="#FFFFFF" />-->
+
+
+    <Button
+        android:id="@+id/btnCustomer"
+        android:layout_width="353dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/btn_rounded"
+        android:drawableRight="@drawable/ic_baseline_people_24"
+        android:text="@string/adHmbtn2"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+
+
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/register_user_toolbar"
+        app:layout_goneMarginTop="50dp"
+        tools:ignore="MissingConstraints" />
+
+<!--    <Button-->
+<!--        android:id="@+id/btnUserBlack"-->
+<!--        android:layout_width="353dp"-->
+<!--        android:layout_height="66dp"-->
+<!--        android:layout_marginBottom="6dp"-->
+<!--        android:background="@drawable/btn_rounded"-->
+<!--        android:drawableRight="@drawable/ic_baseline_not_interested_24"-->
+<!--        android:text="@string/adHmbtn3"-->
+<!--        android:textAlignment="center"-->
+
+<!--        android:textAllCaps="false"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:textSize="24sp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/btnCustomer"-->
+<!--        app:layout_constraintVertical_bias="0.011" />-->
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="353dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/btn_rounded"
+        android:drawableRight="@drawable/ic_baseline_post_add_24"
+        android:text="@string/adHmbtn4"
+
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCustomer"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <Button
+        android:id="@+id/btnSub"
+        android:layout_width="353dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/btn_rounded"
+        android:drawableRight="@drawable/ic_baseline_subscriptions_24"
+
+        android:text="@string/adHmbtn5"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAdd"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <Button
+        android:id="@+id/btnSubUser"
+        android:layout_width="353dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/btn_rounded"
+        android:drawableRight="@drawable/ic_baseline_person_add_24"
+
+        android:text="Add Subsctiption for User"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSub"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <Button
+        android:id="@+id/btnReoprtCustomer"
+        android:layout_width="353dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/btn_rounded"
+        android:drawableRight="@drawable/ic_baseline_report_off_24"
+
+        android:text="@string/btn_customer_reports"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSubUser"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnAdminRatings"
+        android:layout_width="353dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/btn_rounded"
+        android:drawableRight="@drawable/star"
+
+        android:text="@string/adminRate"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnReoprtCustomer"
+        app:layout_constraintVertical_bias="0.016" />
+
+
+    <Button
+        android:id="@+id/btnAppointments"
+        android:layout_width="353dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/btn_rounded"
+        android:drawableRight="@drawable/ic_baseline_bookmarks_24"
+
+        android:text="Appointments"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAdminRatings"
+        app:layout_constraintVertical_bias="0.016" />
+
+
+    <Button
+        android:id="@+id/btnCarWash"
+        android:layout_width="353dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/btn_rounded"
+        android:drawableRight="@drawable/ic_baseline_local_car_wash_24"
+
+        android:text="Add Car Wash Type"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAppointments"
+        app:layout_constraintVertical_bias="0.016" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

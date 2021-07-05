@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".orgAddAdvertisement">
+
+        <Button
+            android:id="@+id/browseImg"
+            android:layout_width="82dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="36dp"
+            android:background="@android:drawable/editbox_background"
+            android:backgroundTint="#225EBB"
+            android:fontFamily="@font/trykker"
+            android:text="@string/btnBrowse"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toStartOf="@+id/etImgName"
+            app:layout_constraintTop_toBottomOf="@+id/etAdDesc" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="132dp"
+            android:fontFamily="@font/trykker"
+            android:text="@string/adImage"
+            android:textColor="#143567"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <EditText
+            android:id="@+id/etImgName"
+            android:layout_width="174dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="12dp"
+            android:ems="10"
+            android:fontFamily="@font/trykker"
+            android:hint="@string/inputHint2"
+            android:inputType="textPersonName"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etAdDesc" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/trykker"
+            android:text="@string/adminAddAdvert"
+            android:textColor="#143567"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="75dp"
+            android:layout_height="31dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="56dp"
+            android:fontFamily="@font/trykker"
+            android:text="@string/lblName"
+            android:textColor="#143567"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="142dp"
+            android:layout_height="31dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="55dp"
+            android:fontFamily="@font/trykker"
+            android:text="@string/adDescrip"
+            android:textColor="#143567"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+        <Button
+            android:id="@+id/btnAddAdvertise2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:background="@android:drawable/editbox_background"
+            android:backgroundTint="#225EBB"
+            android:fontFamily="@font/trykker"
+            android:text="@string/btnAdd"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/viewImg" />
+
+        <EditText
+            android:id="@+id/etAdName"
+            android:layout_width="204dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="12dp"
+            android:ems="10"
+            android:fontFamily="@font/trykker"
+            android:hint="@string/inputHint"
+            android:inputType="textPersonName"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <EditText
+            android:id="@+id/etAdDesc"
+            android:layout_width="197dp"
+            android:layout_height="125dp"
+            android:layout_marginTop="49dp"
+            android:layout_marginEnd="12dp"
+            android:ems="10"
+            android:fontFamily="@font/trykker"
+            android:gravity="start|top"
+            android:hint="@string/inputHint4"
+            android:inputType="textMultiLine"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etAdName" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="42dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnAddAdvertise2" />
+
+        <ImageView
+            android:id="@+id/viewImg"
+            android:layout_width="182dp"
+            android:layout_height="115dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="16dp"
+            android:background="#31225EBB"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etImgName"
+            app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

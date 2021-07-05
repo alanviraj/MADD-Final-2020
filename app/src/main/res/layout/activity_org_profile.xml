@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:context=".OrgProfile">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:layout_marginBottom="22dp"
+        android:background="#143567"
+        android:longClickable="false"
+        android:theme="@style/ThemeOverlay.AppCompat.Light"
+        app:layout_constraintBottom_toTopOf="@+id/org_prof_head"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:logo="@drawable/logop"
+        app:title="Vehicle Bath"
+        app:titleMarginStart="40dp"
+        app:titleTextColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="91dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/trykker"
+        android:text="@string/upheading"
+        android:textColor="#050505"
+        android:textSize="24sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/org_prof_head"
+        app:layout_constraintEnd_toStartOf="@+id/org_prof_head"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="122dp"
+        android:layout_marginBottom="38dp"
+        android:fontFamily="@font/trykker"
+        android:text="@string/UOname"
+        android:textColor="#251B1B"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toStartOf="@+id/org_prof_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/org_prof_head" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="117dp"
+        android:layout_marginBottom="23dp"
+        android:fontFamily="@font/trykker"
+        android:text="@string/UOemail"
+        android:textColor="#251B1B"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/org_prof_num"
+        app:layout_constraintEnd_toStartOf="@+id/org_prof_email"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="33dp"
+        android:fontFamily="@font/trykker"
+        android:text="@string/UOnumber"
+        android:textColor="#251B1B"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView20"
+        app:layout_constraintEnd_toStartOf="@+id/org_prof_num"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="28dp"
+        android:fontFamily="@font/trykker"
+        android:text="@string/nslots"
+        android:textColor="#251B1B"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/org_prof_slots"
+        app:layout_constraintEnd_toStartOf="@+id/org_prof_slots"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="31dp"
+        android:fontFamily="@font/trykker"
+        android:text="@string/osubs"
+        android:textColor="#251B1B"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_upd_org1"
+        app:layout_constraintEnd_toStartOf="@+id/org_prof_subs"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/org_prof_slots" />
+
+    <Button
+        android:id="@+id/btn_view_loyalty"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="75dp"
+        android:background="#225EBB"
+        android:fontFamily="@font/trykker"
+        android:text="@string/btnchgsubs"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_upd_loc1"
+        app:layout_constraintEnd_toStartOf="@+id/btn_upd_org1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/org_prof_slots" />
+
+    <Button
+        android:id="@+id/btn_upd_org1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="14dp"
+        android:background="#225EBB"
+        android:fontFamily="@font/trykker"
+        android:text="@string/usupdDetails"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/btn_upd_loc1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_view_loyalty"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <Button
+        android:id="@+id/dactButton"
+        android:layout_width="251dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#225EBB"
+        android:fontFamily="@font/trykker"
+        android:text="@string/usdeactivate"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_upd_loc1" />
+
+    <Button
+        android:id="@+id/btn_upd_loc1"
+        android:layout_width="251dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="11dp"
+        android:backgroundTint="#225EBB"
+        android:fontFamily="@font/trykker"
+        android:text="@string/btnchglocation"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/dactButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_upd_org1" />
+
+    <EditText
+        android:id="@+id/org_prof_name"
+        android:layout_width="0dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="165dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="166dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/org_prof_slots"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/org_prof_subs"
+        android:layout_width="0dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="17dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/btn_upd_org1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView21"
+        app:layout_constraintTop_toBottomOf="@+id/org_prof_slots" />
+
+    <EditText
+        android:id="@+id/org_prof_num"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="19dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/org_prof_slots"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <EditText
+        android:id="@+id/org_prof_slots"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="21dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/textView21"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView20"
+        app:layout_constraintTop_toBottomOf="@+id/org_prof_num" />
+
+    <EditText
+        android:id="@+id/org_prof_email"
+        android:layout_width="0dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="75dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toTopOf="@+id/org_prof_name" />
+
+    <TextView
+        android:id="@+id/org_prof_head"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="40dp"
+        android:text="helo"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp"
+    android:layout_marginBottom="16dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.842"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView17"
+    app:layout_constraintVertical_bias="1.0">
+
+    tools:context=".customers">
+
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/editbox_dropdown_dark_frame"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="ID"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="193dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/editbox_dropdown_dark_frame"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="Orgnization"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="148dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/editbox_dropdown_dark_frame"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="Phone"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/editbox_dropdown_dark_frame"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="@string/idT1"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="193dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/editbox_dropdown_dark_frame"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="@string/Tname1"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="148dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/editbox_dropdown_dark_frame"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="@string/Tphone1"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/editbox_dropdown_dark_frame"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="@string/idT2"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="193dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/editbox_dropdown_dark_frame"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="@string/Tname2"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="148dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/editbox_dropdown_dark_frame"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="@string/Tphone1"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/editbox_dropdown_dark_frame"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="@string/idT3"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="193dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/editbox_dropdown_dark_frame"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="@string/Tname3"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="148dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/editbox_dropdown_dark_frame"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="@string/Tphone1"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/editbox_dropdown_dark_frame"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="4"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="193dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/editbox_dropdown_dark_frame"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="@string/Tname1"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="148dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/editbox_dropdown_dark_frame"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="@string/Tphone1"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/editbox_dropdown_dark_frame"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="6"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="193dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/editbox_dropdown_dark_frame"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="@string/Tname2"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="148dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/editbox_dropdown_dark_frame"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="@string/Tphone1"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/editbox_dropdown_dark_frame"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="7"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="193dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/editbox_dropdown_dark_frame"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="@string/Tname3"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="148dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/editbox_dropdown_dark_frame"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="@string/Tphone1"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+
+</TableLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateUser">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context=".Update_Org">
+
+        <EditText
+            android:id="@+id/uunumber"
+            android:layout_width="339dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginBottom="45dp"
+            android:ems="10"
+            android:fontFamily="@font/trykker"
+            android:hint="Enter The Number"
+            android:inputType="number"
+            android:textColor="#0C0C0C"
+            app:layout_constraintBottom_toTopOf="@+id/btn_update_user"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/uuemail" />
+
+        <EditText
+            android:id="@+id/uuname"
+            android:layout_width="339dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginBottom="20dp"
+            android:ems="10"
+            android:fontFamily="@font/trykker"
+            android:hint="Enter The Name"
+            android:inputType="textPersonName"
+            android:textColor="#0C0C0C"
+            app:layout_constraintBottom_toTopOf="@+id/uuemail"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+        <Button
+            android:id="@+id/btn_update_user"
+            android:layout_width="239dp"
+            android:layout_height="49dp"
+            android:layout_marginBottom="197dp"
+            android:backgroundTint="#225EBB"
+            android:fontFamily="@font/trykker"
+            android:text="@string/updateD"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/uunumber" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:layout_marginBottom="47dp"
+            android:fontFamily="@font/trykker"
+            android:text="@string/OrgHomeH"
+            android:textColor="#050505"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/uuname"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/uuemail"
+            android:layout_width="339dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginEnd="35dp"
+            android:layout_marginBottom="21dp"
+            android:ems="10"
+            android:hint="Enter The Email"
+            android:inputType="textEmailAddress"
+            app:layout_constraintBottom_toTopOf="@+id/uunumber"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/uuname" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

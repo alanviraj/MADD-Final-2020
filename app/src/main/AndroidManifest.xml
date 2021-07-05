@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vehiclebath">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Test1"></activity>
+        <activity android:name=".redeemloyalty" />
+        <activity android:name=".CusShowAllAppointments" />
+        <activity android:name=".AdminUpdateAppointment" />
+        <activity android:name=".UserRating" />
+        <activity android:name=".AdminViewProgressAppointments" />
+        <activity android:name=".adminViewAllAppointments" />
+        <activity android:name=".AdminViewNewAppointments" />
+        <activity android:name=".LoginNew" />
+        <activity android:name=".OrganizationReport_or_Activate_Activity" />
+        <activity android:name=".CustomerReportedActivity" />
+        <activity android:name=".AdminRating" />
+        <activity android:name=".AppointmentbtnActivity" />
+        <activity android:name=".SettingsActivity1" />
+        <activity android:name=".MainActivityJoe">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ViewUserLoyalty" />
+        <activity android:name=".VerifyUserPwd" />
+        <activity android:name=".VerifyOrgPwd" />
+        <activity android:name=".UserProfile" />
+        <activity android:name=".UserHomePge" />
+        <activity android:name=".UpdateUser" />
+        <activity android:name=".UpdateOrg" />
+        <activity android:name=".SelectType" />
+        <activity android:name=".RegisterUser" />
+        <activity android:name=".OrgProfile" />
+        <activity android:name=".OrgLocationUpdate" />
+        <activity android:name=".OrgLocationInsert" />
+        <activity android:name=".OrgHomePage" />
+        <activity android:name=".ConfirmOrgRegistration" />
+        <activity android:name=".ChangeOrgPwd" />
+        <activity android:name=".RegisterOrg" />
+        <activity android:name=".OrgnizationReport_or_Activity" />
+        <activity android:name=".CustomerReportActivity" />
+        <activity android:name=".adminAddCarwashType" />
+        <activity android:name=".Orgnization" />
+        <activity android:name=".customers" />
+        <activity android:name=".Rating_organization" />
+        <activity android:name=".customer_notifications" />
+        <activity android:name=".report_customer_message" />
+        <activity
+            android:name=".admin_main"
+            android:parentActivityName=".LoginNew" />
+        <activity android:name=".customer_blacklist" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".PlaceAppointmentForm" />
+        <activity android:name=".SelectCarWash" />
+        <activity android:name=".ChangeUserPwd" />
+        <activity android:name=".viewCarWash" />
+        <activity android:name=".AppointmentSummary" />
+        <activity android:name=".HomeUserActivity" />
+        <activity
+            android:name=".orgYourAdvertisement"
+            android:parentActivityName=".admin_main" />
+        <activity
+            android:name=".orgAddAdvertisement"
+            android:parentActivityName=".orgYourAdvertisement" />
+        <activity
+            android:name=".addSubscrip"
+            android:parentActivityName=".adminSubscripDetail" />
+        <activity
+            android:name=".addSubscripUser"
+            android:parentActivityName=".admin_main" />
+        <activity
+            android:name=".adminSubscripDetail"
+            android:parentActivityName=".admin_main" />
+    </application>
+
+</manifest>

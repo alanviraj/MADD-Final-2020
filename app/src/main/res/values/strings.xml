@@ -1,0 +1,173 @@
+<resources>
+    <string name="app_name">Vehicle Bath</string>
+    <string name="Msg1">Rate Car Washer</string>
+    <string name="btnRate1">SUBMIT</string>
+    <string name="CusNot1">Mathurata washers accepted your   request 11:30 time</string>
+    <string name="time1">11:00</string>
+    <string name="date1">12/23/2020</string>
+    <string name="clearBtn">CLEAR</string>
+    <string name="adHmbtn1">Organizations</string>
+    <string name="adHmbtn2">Customers</string>
+    <string name="adHmCount1">121</string>
+    <string name="adHmbtn3">User Blacklist</string>
+    <string name="adHmbtn4">Advertisements</string>
+    <string name="adHmbtn5">Subscriptions</string>
+    <string name="appName">Vehicle Bath</string>
+    <string name="cusBlack">Customer Blacklist</string>
+    <string name="blkName">Niamla</string>
+    <string name="blkNameNum">07712345678</string>
+    <string name="blkName1">Syalverster</string>
+    <string name="blkNameNum1">07756723490</string>
+    <string name="blkName2">John</string>
+    <string name="blkNameNum2">07756723490</string>
+    <string name="activate">Activate</string>
+    <string name="rport">Report Customer</string>
+    <string name="btnReport">Report</string>
+    <string name="btnDismiss">Dismiss</string>
+    <string name="bookCancel">Booking Cancelled</string>
+    <string name="reportWhy">Please be kind enough to tell us why </string>
+    <string name="Rpwhy1">Late</string>
+    <string name="Rpwhy2">No response</string>
+    <string name="Rpwhy3">Misuse</string>
+    <string name="btnSubmit">Submit</string>
+    <string name="notCus1">Mathurata washers accepted your   request 11:30 time</string>
+    <string name="notCus2">You declined the request before   allocated time slot at Viha washers</string>
+    <string name="notCus3">Vihara washers accepted your   request 11:30 time B slot</string>
+    <string name="date">12/23/2020</string>
+    <string name="clear">Clear</string>
+    <string name="rateTopic">Rate Our Service</string>
+    <string name="rate1">Clean work</string>
+    <string name="rate2">Friendly</string>
+    <string name="rate3">Good Service</string>
+    <string name="rate4">Can improve</string>
+    <string name="rate5">Poor service</string>
+    <string name="next">Next</string>
+    <string name="rateQ">Tell us why ?</string>
+    <string name="notifiBtn">Notifications</string>
+    <string name="Phone">phoneT</string>
+    <string name="Tname1">Nimal</string>
+    <string name="Tname2">Kamal</string>
+    <string name="Tname3">Vimal</string>
+    <string name="Tphone1">07712345678</string>
+    <string name="idT1">1</string>
+    <string name="idT2">2</string>
+    <string name="idT3">3</string>
+
+
+    <!--    Joachim-->
+
+
+    <string name="UOname">Name</string>
+    <string name="UOemail">E-mail</string>
+    <string name="UOnumber">Phone-Number</string>
+    <string name="CAbutton">Create Account</string>
+    <string name="UOlink">Login</string>
+    <string name="nslots">Number Of Slots</string>
+    <string name="orgnext">Next</string>
+    <string name="vup">Change Your Password!!</string>
+    <string name="vbutton">Verify Account</string>
+    <string name="cpwdbtn">Change Password</string>
+    <string name="upheading">Welcome</string>
+    <string name="uscpwd">Change Password</string>
+    <string name="usupdDetails">Update Details</string>
+    <string name="usdeactivate">Deactivate Account</string>
+    <string name="osubs">Subscription</string>
+    <string name="btnchgsubs">Change Subscription</string>
+    <string name="btnchglocation">Change Location</string>
+    <string name="Uradio">Customer</string>
+    <string name="Oradio">Organization</string>
+    <string name="loyaltyH">\n Total Loyalty Points \t\t\t\t\t\t45</string>
+    <string name="loyaltyL">\t\tPoints earned on last wash\n\t\t\t\t\t\t\t\t\t\t
+            \t\t\t\t\t\t\t\t\t10 Points</string>
+    <string name="loyaltytableH">Points</string>
+    <string name="loyaltytableH2">Rewards</string>
+    <string name="tabler1">50</string>
+    <string name="tabler1H">2 free wash liquids</string>
+    <string name="tabler2">100</string>
+    <string name="tabler2H">20% off for a wash</string>
+    <string name="tabler3">150</string>
+    <string name="tabler3H">50% off for a wash</string>
+    <string name="tabler4">200</string>
+    <string name="tabler4H">Free vehicle wash</string>
+    <string name="OrgHomeH">Welcome To Vehicle Bath!!</string>
+    <string name="OrgHomeVA">View Appointments</string>
+    <string name="OrgHomeYA">Your Activities</string>
+    <string name="OrgHomeVR">View Ratings</string>
+    <string name="OrgHomeAA">Add Advertisements</string>
+    <string name="UHomeA">Appointments</string>
+    <string name="UHomeL">Loyalty Points</string>
+    <string name="UHomeB">Book Now</string>
+    <string name="updateD">Update Details</string>
+    <string name="loginH">Login</string>
+    <string name="UOchk">I accept terms and policies</string>
+    <string name="btn_customer_reports">Report Customer</string>
+
+    <string-array name="optionLoyalty">
+        <item>Premium-50</item>
+        <item>Classis-100</item>
+        <item>Hybrid-150</item>
+        <item>Free Wash-200</item>
+    </string-array>
+
+
+    <!--    Yathushan-->
+
+    <string name="selectSub">Select Your Subscription</string>
+    <string name="plat">\t\tPlatinum \n\t\t\t\t\tValidity: Lifetime \n\t\t\t\t\tPrice: 50$</string>
+    <string name="gold">\t\tGold \n\t\t\t\t\tValidity: 24 months \n\t\t\t\t\tPrice: 20$</string>
+    <string name="silver">\t\tSilver \n\t\t\t\t\tValidity: 9 months \n\t\t\t\t\tPrice: 10$</string>
+    <string name="bron">\t\tBronze \n\t\t\t\t\tValidity: 3 months \n\t\t\t\t\tPrice: 5$</string>
+
+    <string name="btnconf">Confirm</string>
+    <string name="subscripHead">Subscription Plan Details</string>
+    <string name="subCol1Head">Subscription Name</string>
+    <string name="subCol2Head">Price\n($)</string>
+    <string name="btnAdd">Add</string>
+    <string name="btnUpdate">Update</string>
+    <string name="addSub">Add a Subscription Plan</string>
+    <string name="lblName">Name</string>
+    <string name="lblPrice">Price</string>
+    <string name="lblSubPeri">Subscription Period:</string>
+    <string name="lblyear">(Years)</string>
+    <string name="lblDPerc">Discount Percentage</string>
+    <string name="lblDiscPerc">Discount Percentage</string>
+    <string name="lblAvail">Availability</string>
+    <string-array name="Availability">
+        <item>Enable</item>
+        <item>Disable</item>
+    </string-array>
+    <string name="adminUpdateSub">Update Subscription Plan</string>
+    <string name="adDescrip">Description</string>
+    <string name="adImage">Image</string>
+    <string name="adminAddAdvert">Add Advertisement</string>
+    <string name="adminUpdateAdvert">Update Advertisement</string>
+    <string name="adminDeleteAdvert">Delete Advertisement</string>
+    <string name="btnDelete">Delete</string>
+    <string name="adminYourAdvert">Your Advertisements</string>
+    <string name="btnBrowse">Browse</string>
+    <string name="inputHint">Enter Adevertisement Name</string>
+    <string name="inputHint2">Enter File Name</string>
+    <string name="inputHint3">Enter Displaying Days</string>
+    <string name="inputHint4">Enter a Description</string>
+    <string name="inputHint5">Enter Subscription Name</string>
+    <string name="inputHint6">Enter Subscription Price</string>
+    <string name="inputHint7">Enter Discount Percentage</string>
+    <string name="inputHint8">Enter Subscription Period</string>
+    <string name="updateSelectSub">Select Your Subscription Plan for Update</string>
+    <string name="btnNext">Next</string>
+    <string name="selectSubPlan">Select Subscription Plan</string>
+    <string name="addSubUser">Add a Subscription for User</string>
+    <string name="userPhone">Phone Number:</string>
+    <string name="etUserPhone">Enter Phone Number</string>
+    <string name="subPlan">Subscription Plan:</string>
+
+    <string name="price">Rs.</string>
+    <string name="dialog_message">Report</string>
+    <string name="rateus">Please be kind enough to rate our service..</string>
+    <string name="adminRate">Ratings</string>
+
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+
+
+</resources>

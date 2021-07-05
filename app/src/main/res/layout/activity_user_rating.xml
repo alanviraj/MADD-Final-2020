@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserRating">
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="60dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:textSize="25dp"
+    android:textStyle="bold"
+    android:textColor="#0A13AA"
+    android:text="@string/rateus" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="center"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="80dp"
+        android:numStars="5"
+        android:stepSize="1"
+        android:progressTint="#E6B500"
+        />
+
+</RelativeLayout>

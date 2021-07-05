@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".RegisterUser">
+
+        <include
+            android:id="@+id/register_user_toolbar"
+            layout="@layout/app_bar_layout" />
+
+        <!--    <androidx.appcompat.widget.Toolbar-->
+        <!--        android:id="@+id/toolbar"-->
+        <!--        android:layout_width="411dp"-->
+        <!--        android:layout_height="56dp"-->
+
+        <!--        android:background="#143567"-->
+        <!--        android:longClickable="false"-->
+        <!--        android:theme="@style/ThemeOverlay.AppCompat.Light"-->
+        <!--        app:logo="@drawable/logop"-->
+        <!--        app:title="Vehicle Bath"-->
+        <!--        app:titleMarginStart="40dp"-->
+        <!--        app:titleTextColor="#FFFFFF" />-->
+
+
+        <EditText
+            android:id="@+id/uoname"
+            android:layout_width="339dp"
+            android:layout_height="56dp"
+
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="47dp"
+            android:layout_marginEnd="36dp"
+            android:background="@drawable/shapeq"
+            android:ems="10"
+            android:fontFamily="@font/trykker"
+            android:hint=" Enter The Name"
+            android:inputType="textPersonName"
+            android:textColor="#0C0C0C"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/register_user_toolbar" />
+
+        <EditText
+            android:id="@+id/uonumber"
+            android:layout_width="339dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="36dp"
+            android:background="@drawable/shapeq"
+            android:ems="10"
+            android:fontFamily="@font/trykker"
+            android:hint=" Enter The Phone Number"
+            android:inputType="number"
+            android:textColor="#0C0C0C"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/uoemail" />
+
+        <CheckBox
+            android:id="@+id/chkr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="99dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="99dp"
+            android:fontFamily="@font/trykker"
+            android:text="@string/UOchk"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/uorpwd" />
+
+        <Button
+            android:id="@+id/btn_create_UA"
+            android:layout_width="251dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="80dp"
+            android:background="@drawable/shapex"
+            android:backgroundTint="#225EBB"
+            android:fontFamily="@font/trykker"
+            android:text="@string/CAbutton"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chkr" />
+
+        <TextView
+            android:id="@+id/rlink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="184dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="183dp"
+            android:text="@string/UOlink"
+            android:textColor="#225EBB"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_create_UA" />
+
+        <EditText
+            android:id="@+id/uoemail"
+            android:layout_width="339dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="36dp"
+            android:background="@drawable/shapeq"
+            android:ems="10"
+            android:hint="  Enter The Email"
+            android:inputType="textEmailAddress"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/uoname" />
+
+        <EditText
+            android:id="@+id/uopwd"
+            android:layout_width="339dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="36dp"
+            android:background="@drawable/shapeq"
+            android:ems="10"
+            android:hint=" Enter The Password"
+            android:inputType="textPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/uonumber" />
+
+        <EditText
+            android:id="@+id/uorpwd"
+            android:layout_width="339dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="36dp"
+            android:background="@drawable/shapeq"
+            android:ems="10"
+            android:hint=" Re-Enter The Password"
+            android:inputType="textPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/uopwd" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

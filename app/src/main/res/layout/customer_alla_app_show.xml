@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:elevation="15dp">
+
+        <TextView
+            android:id="@+id/custypeName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Type : "
+            android:textSize="16dp"
+            android:paddingTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/cusWashDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date : "
+            android:layout_below="@+id/custypeName"
+            android:textSize="16dp"
+            android:paddingTop="5dp"/>
+
+        <TextView
+            android:id="@+id/cusWashTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Time : "
+            android:layout_below="@+id/cusWashDate"
+            android:textSize="16dp"
+            android:paddingTop="5dp"/>
+
+        <Button
+            android:id="@+id/btnDlt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cusWashTime"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="146dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginEnd="148dp"
+            android:backgroundTint="#CF2020"
+            android:gravity="center"
+            android:text="delete" />
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

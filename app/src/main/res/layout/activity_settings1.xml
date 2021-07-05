@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity1">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_settings1"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="#143567">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_settings1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/close_settings1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="close"
+                    android:textColor="@android:color/white"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:layout_alignParentStart="true"
+                    />
+                <TextView
+                    android:id="@+id/update_settings1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="update"
+                    android:textColor="@android:color/white"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignParentEnd="true"
+                    />
+            </RelativeLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/settings_profile_img1"
+        android:layout_width="129dp"
+        android:layout_height="109dp"
+        android:layout_below="@+id/app_bar_settings1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/profile" />
+    <TextView
+        android:id="@+id/profile_img_change1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Profile"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/settings_profile_img1"
+        android:layout_centerHorizontal="true"
+        />
+    <EditText
+        android:id="@+id/settings_phone_num"
+        android:layout_width="396dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_img_change1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:hint="Phone Number ...."
+        android:padding="10dp" />
+    <EditText
+        android:id="@+id/settings_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/settings_phone_num"
+        android:hint="Name ...."
+        android:layout_margin="20dp"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/settings_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/settings_name"
+        android:layout_margin="20dp"
+        android:layout_marginTop="43dp"
+        android:hint="Email ...."
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/settings_subscription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/settings_email"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="15dp"
+        android:hint="Subscription ...."
+        android:editable="false"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/settings_phone_num"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="308dp"
+        android:layout_marginTop="213dp"
+        android:layout_marginBottom="10dp"
+        android:text="(Number)"
+        android:textSize="18sp" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView10"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="24dp"-->
+<!--        android:layout_alignStart="@+id/settings_name"-->
+<!--        android:layout_alignBottom="@+id/settings_name"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_marginStart="305dp"-->
+<!--        android:layout_marginTop="291dp"-->
+<!--        android:layout_marginEnd="27dp"-->
+<!--        android:layout_marginBottom="11dp"-->
+<!--        android:text="(Name)"-->
+<!--        android:textSize="18sp" />-->
+
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:text="(Name)"
+        android:textSize="18sp"
+        android:layout_below="@+id/textView9"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginLeft="320dp"
+        />
+
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:text="(Email)"
+        android:textSize="18sp"
+        android:layout_below="@+id/textView10"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginLeft="320dp"
+        />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:text="(Subscription)"
+        android:textSize="18sp"
+        android:layout_below="@+id/textView11"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginLeft="290dp"
+        />
+
+    <Button
+        android:id="@+id/deleteU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="101dp"
+        android:layout_marginEnd="292dp"
+        android:backgroundTint="#225EBB"
+        android:text="Delete"
+        android:textColor="#FFFFFF" />
+
+
+</RelativeLayout>
